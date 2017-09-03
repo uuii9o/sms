@@ -75,8 +75,8 @@ if __name__ == 'send':
     __business_id = uuid.uuid1()
     print __business_id
     params = "{\"number\":\"12345\"}"
-    # print send_sms(__business_id, "13810560599", "惠康糖御", "SMS_91780002", params)
-    print send_sms(__business_id, "15822797443", "惠康糖御", "SMS_91840001", params)
+    print send_sms(__business_id, "13810560599", "惠康糖御", "SMS_91780002", params)
+    # print send_sms(__business_id, "15822797443", "惠康糖御", "SMS_91840001", params)
 
 # if __name__ == 'query':
 #     print query_send_detail("1234567^8901234", "13810560599", 10, 1, "20170612")
